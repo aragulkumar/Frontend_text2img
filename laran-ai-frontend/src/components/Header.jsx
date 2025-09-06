@@ -1,11 +1,9 @@
 import React from "react";
-import DarkModeToggle from "./DarkModeToggle";
 
-const Header = () => (
-  <header className="flex justify-between items-center p-6 bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50">
-    <h1 className="text-2xl font-bold text-primary">Laran AI Media</h1>
-    <DarkModeToggle />
-  </header>
-);
-
-export default Header;
+export default function Header() {
+  return (
+    <header className="bg-blue-500 text-white p-4">
+      <h1>My Website Header</h1>
+    </header>
+  );
+}
